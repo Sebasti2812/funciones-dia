@@ -1,4 +1,5 @@
 #ejemplo para calcular el are del triangulo
+from re import match
 
 
 #from main import my_function
@@ -52,3 +53,31 @@ mostrarCliente(nombre = "tobias", apellido= "refsnes")
 #declaracion de paso
 def mifuncion():
     pass
+
+#funciones integradas
+x = min(5, 10, 25)
+y = max(5, 10, 25)
+
+print(x)
+print(y)
+
+#funcion pow
+
+num1 = pow(7, 4)
+print(num1)
+
+#modulo matematicas
+
+import math
+
+num2 = math.sqrt(8)
+
+print(num2)
+
+import math
+
+num3 = math.ceil(7.8)
+num4 = math.floor(7.8)
+
+print(num3) # returns 8
+print(num4) # returns 7
